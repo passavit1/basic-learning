@@ -34,3 +34,32 @@ if x:
 
 print(name)
 
+
+
+# format
+'''
+fname = input("what is your first name ? = ")
+lname = input('what is your last name ? = ')
+age = float(input('how old are you ? = '))
+
+text = 'fname : {0} \tlname : {0} \tage : {2:.2f}  ' 
+# :.2f คือใช้ทศนิยมจำนวน 2 ตำแหน่ง
+# ตัวเลขที่อยู่ใน {} เป็นตำแหน่งที่ดึงจาก format เริ่มด้วน 0 
+
+print(text.format(fname,lname,age))
+
+'''
+
+#นับจำนวนคำที่ต้องการค้นหา 
+'''
+text = 'i goning to market to shoping to back home'
+
+print('มีคำศัพท์ทั้งสิ้น' , text.count('to'))
+'''
+
+#เช็คคำนำหน้า
+
+name = 'นายภาสวิศ หมายเจริญ'
+
+print(name.startswith('นาย')) #boolean
+print(name.endswith('หมายเจริญ'))
