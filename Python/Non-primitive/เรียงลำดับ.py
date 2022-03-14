@@ -51,5 +51,15 @@ print('all number', number)
 print('เลขคู่มีเลข' , even)
 print('เลขคี่มีเลข' , odd)
     
+#เรียงลำดับชื่อ
 
-  
+name=['red','black','white','pink']
+name.sort()
+print(name)
+
+#เรียงจากหลังสุด มาหน้าสุด
+
+fruit = ['apple', 'banana' , 'mango', 'orange']
+print('before' , fruit)
+fruit=fruit[::-1]
+print('After' , fruit)
